@@ -140,4 +140,4 @@ def main_loop(content_image_path, style_image_path, iterations=10):
   save(generated.numpy())
   
 
-main_loop('dog.jpg', 'style.png')
+main_loop('input/dog.jpg', 'input/style.png')
